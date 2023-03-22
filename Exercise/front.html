@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>실습 예제</title>
+    <link rel="stylesheet" href="./css/front.css">
+</head>
+<body>
+    <div id="container">
+        <h1>프런트엔드 개발자 지원서</h1>
+        <p class="accent"> HTML, CSS, Javascript에 대한 기술적 이해와 경험이 있는 분을 찾습니다.</p>
+        <hr>
+        <form action="frontend.jsp" method="post">
+            <legend><b>개인 정보</b></legend>
+                <ul>
+                    <li>
+                        <label for="name">이름</label>
+                        <input type="text" id="user name" name="user">
+                    </li>
+                    <li>
+                        <label for="phone">연락처</label>
+                        <input type="text" id="phone" name="phone">
+                    </li>
+                </ul>
+                <legend><b>지원 분야</b></legend>
+                <ul>
+                    <li>
+                        <label><input type="radio" name="web" value="webpub">웹 퍼블리싱</label>
+                    </li>
+                    <li>
+                        <label><input type="radio" name="web" value="webapp">웹 어플리케이션 개발</label>
+                    </li>
+                    <li>
+                        <label><input type="radio" name="web" value="env">개발 환경 개선</label>
+                    </li>
+                </ul>
+                <legend><b>지원 동기</b></legend>
+                <textarea rows="5" cols="60" name="memo"
+                  placeholder="본사 지원 동기를 간략히 써 주세요"></textarea>
+                <div class="button">
+                    <input type="submit" value="접수하기">
+                    <input type="rewrite" value="다시 쓰기">
+                </div>
+            </form>
+        </div>
+    </body>
+</html>
