@@ -1,0 +1,35 @@
+body{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    background-color: #02233b;
+}
+#container{
+    width: 700px;
+    height: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    /* background-color: #fff;
+    background-image: url("../images/mic.png");
+    background-repeat: no-repeat;
+    background-position: bottom right; */
+
+    background: url("../images/mic.png") #fff no-repeat right 0px bottom 0px;
+    /* background-size: contain; */
+}
+h1{
+    background-color: #004344;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    font-style: italic;
+    text-align: center;
+}
+h3{color: red;}
+ul li{
+    list-style: none;
+    line-height: 3;
+    margin-left: 20px;
+}
