@@ -15,10 +15,9 @@ header #logo{
     line-height: 80px;
 }
 header h1{
-    color: #fff;
     padding-left: 20px;
 }
-.logo_a{
+header h1 a{
     color: #fff;
     text-decoration: none;
 }
@@ -36,7 +35,7 @@ a{
     color: #fff;
     text-decoration: none;
 }
-a:hover{
+ul li a:hover{
     background-color: #2fb2fd;
     color: #fff;
 }
